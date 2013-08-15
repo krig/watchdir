@@ -9,5 +9,6 @@ setup(name='watchdir',
       author_email='krig@koru.se',
       url='https://github.com/krig/watchdir',
       packages=[],
-      scripts=['watchdir']
+      scripts=['watchdir'],
+      requires=['pyinotify']
      )
